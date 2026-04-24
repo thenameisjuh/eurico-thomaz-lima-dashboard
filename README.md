@@ -1,8 +1,10 @@
 # 🎼 Dashboard Eurico Thomaz Lima: Análise de Redes e Curadoria Digital
 
-Este projeto foi desenvolvido no âmbito do **Mestrado em Humanidades Digitais** da Universidade do Minho. O objetivo principal é a transformação de correspondência histórica codificada em **XML/TEI** numa interface interativa de análise de redes (Network Analysis).
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://eurico-thomaz-lima-dashboard.streamlit.app/)
 
-O projeto demonstra a capacidade de unir o rigor da investigação histórica com ferramentas avançadas de ciência de dados para tornar arquivos físicos em conhecimento digital acionável.
+[cite_start]Este projeto foi desenvolvido no âmbito do **Mestrado em Humanidades Digitais** da Universidade do Minho[cite: 13, 14]. O objetivo principal é a transformação de correspondência histórica codificada em **XML/TEI** numa interface interativa de análise de redes.
+
+[cite_start]O projeto demonstra a capacidade de unir o rigor da investigação histórica com ferramentas avançadas de ciência de dados para tornar arquivos físicos em conhecimento digital acionável[cite: 15, 31].
 
 ## 🚀 Funcionalidades
 * **Processamento de Dados**: Pipeline de extração e limpeza de metadados a partir de ficheiros TEI-XML.
@@ -11,15 +13,9 @@ O projeto demonstra a capacidade de unir o rigor da investigação histórica co
 
 ## 🛠️ Stack Tecnológica
 * **Linguagem**: Python 3.x
-* **Interface**: [Streamlit](https://streamlit.io/)
+* **Interface**: Streamlit
 * **Visualização de Grafos**: NetworkX e Pyvis
 * **Tratamento de Dados**: Pandas e Lxml
 
-## 📂 Estrutura do Repositório
-* `app.py`: Código principal da aplicação.
-* `requirements.txt`: Dependências necessárias para o deployment.
-* `dados/`: Ficheiros XML/TEI e bases de dados processadas.
-* `imagens/`: Acervo digitalizado de suporte à análise.
-
 ---
-**Nota Curricular:** Este projeto reflete a minha transição para as Humanidades Digitais, onde aplico a disciplina e o rigor operacional desenvolvidos em 4 anos como **Bombeira Voluntária** à gestão e preservação de dados críticos.
+[cite_start]**Nota Curricular:** Este projeto reflete a minha transição para as Humanidades Digitais, onde aplico a disciplina e o rigor operacional desenvolvidos em 4 anos como **Bombeira Voluntária** à gestão e preservação de dados críticos[cite: 33, 36].
