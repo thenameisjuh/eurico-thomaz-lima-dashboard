@@ -1,0 +1,96 @@
+<!ELEMENT tei.2 (teiHeader, text)>
+
+<!ELEMENT teiHeader (fileDesc)>
+<!ELEMENT fileDesc (titleStmt, publicationStmt, sourceDesc)>
+
+<!ELEMENT titleStmt (title)>
+<!ELEMENT title (#PCDATA)>
+
+<!ELEMENT publicationStmt (authority, address, date)>
+<!ELEMENT authority (#PCDATA)>
+
+<!ELEMENT sourceDesc (letDesc)>
+<!ELEMENT letDesc (letIdentifier, letHeading, physDesc, envOcc)>
+
+<!ELEMENT letIdentifier (country, settlement, repository, collection, idno)>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT settlement (#PCDATA)>
+<!ELEMENT repository (#PCDATA)>
+<!ELEMENT collection (#PCDATA)>
+<!ELEMENT idno (#PCDATA)>
+
+<!ELEMENT letHeading (author, addressee, placeLet, dateLet)>
+<!ELEMENT author (#PCDATA)>
+<!ATTLIST author attested CDATA #IMPLIED>
+<!ELEMENT addressee (#PCDATA)>
+<!ATTLIST addressee attested CDATA #IMPLIED>
+<!ELEMENT placeLet (#PCDATA)>
+<!ATTLIST placeLet attested CDATA #IMPLIED>
+<!ELEMENT dateLet (#PCDATA)>
+<!ATTLIST dateLet attested CDATA #IMPLIED>
+
+<!ELEMENT physDesc (type, support)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT support (p)>
+<!ELEMENT envOcc EMPTY>
+<!ATTLIST envOcc occ CDATA #REQUIRED>
+
+<!ELEMENT text (envelope?, carta)>
+
+<!ELEMENT envelope (envPart*, envelope?, note?)>
+<!ATTLIST envelope type CDATA #IMPLIED>
+
+<!ELEMENT envPart (address | postmark | div)*>
+<!ATTLIST envPart side (font | back) #REQUIRED>
+
+<!ELEMENT address (addrLine+)>
+<!ATTLIST address type CDATA #IMPLIED>
+<!ELEMENT addrLine (#PCDATA)>
+
+<!ELEMENT postmark (placeName, date)>
+<!ATTLIST postmark n CDATA #IMPLIED>
+<!ELEMENT placeName (#PCDATA)>
+
+<!ELEMENT div (p)>
+<!ELEMENT note (#PCDATA)>
+
+<!ELEMENT carta (#PCDATA | folio | morada | local | data | saudacao | nome | p | lb | postscript | titulo)*>
+<!ATTLIST carta n CDATA #REQUIRED>
+
+<!ELEMENT folio EMPTY>
+<!ATTLIST folio n CDATA #REQUIRED>
+
+<!ELEMENT lb EMPTY>
+
+<!ELEMENT morada (#PCDATA | lb)*>
+<!ELEMENT local (#PCDATA)>
+
+<!ELEMENT date (#PCDATA)>
+<!ATTLIST date value CDATA #IMPLIED>
+<!ELEMENT data (#PCDATA)>
+<!ATTLIST data value CDATA #IMPLIED>
+
+<!ELEMENT saudacao (#PCDATA | nome | lb | lugar | saudacao)*>
+<!ATTLIST saudacao tipo CDATA #IMPLIED>
+
+<!ELEMENT p (#PCDATA | lb | nome | cantora | titulo | instumento | dia | data | lugar | saudacao)*>
+
+<!ELEMENT nome (#PCDATA | nome | lb)*>
+<!ATTLIST nome 
+    tipo CDATA #IMPLIED
+    id CDATA #IMPLIED>
+
+<!ELEMENT cantora (#PCDATA)>
+<!ATTLIST cantora id CDATA #IMPLIED>
+
+<!ELEMENT titulo (#PCDATA)>
+<!ATTLIST titulo tipo CDATA #IMPLIED>
+
+<!ELEMENT instumento (#PCDATA)>
+
+<!ELEMENT dia (#PCDATA)>
+
+<!ELEMENT lugar (#PCDATA)>
+<!ATTLIST lugar tipo CDATA #IMPLIED>
+
+<!ELEMENT postscript (#PCDATA | lb | nome)*>

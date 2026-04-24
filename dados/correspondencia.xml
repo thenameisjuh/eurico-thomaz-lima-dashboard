@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tei.2 SYSTEM "Carta67v2.dtd">
+    <tei.2> 
+    <teiHeader>
+        <fileDesc>
+        <titleStmt> 
+            <title> 67 / 15.03.1956 Alma Cunha Miranda para Eurico Tomaz de Lima </title>
+        </titleStmt>
+        <publicationStmt>
+            <authority> Departamento de Música da ELACH da Universidade do Minho </authority>
+            <address>
+                <addrLine> Edifício dos Congregados </addrLine>
+                <addrLine> Avenida Central, Nº100 </addrLine>
+                <addrLine> 4710-228 Braga </addrLine>
+            </address>
+            <date value = "2025"> 2025 </date>
+        </publicationStmt>
+        <sourceDesc> 
+            <letDesc>
+                <letIdentifier>
+                    <country> Portugal </country>
+                    <settlement> Braga </settlement>
+                    <repository> Congregados </repository>
+                    <collection> Espólio de Correspondência de Eurico Tomaz Lima </collection>
+                    <idno> Carta 67 </idno>
+                </letIdentifier>
+                <letHeading>
+                    <author attested ="yes"> Alma Cunha Miranda </author>
+                    <addressee attested ="yes"> Eurico Tomaz de Lima </addressee>
+                    <placeLet attested ="yes"> Rio de Janeiro </placeLet>
+                    <dateLet attested = "yes"> 1956-03-15 </dateLet>
+                </letHeading>
+                <physDesc>
+                    <type> carta </type>
+                    <support>
+                        <p> carta de papel escrita a tinta de ambos os lados </p>
+                    </support>
+                </physDesc>
+                <envOcc occ="yes"/>
+            </letDesc>
+        </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<text>
+    <envelope>
+        <envPart side ="font">
+            <address type ="receiver">
+                <addrLine> Rua Egas Moniz 6 </addrLine>
+                <addrLine> Pôrto </addrLine>
+                <addrLine> Portugal </addrLine>
+            </address>
+            <postmark>
+                <placeName> ilegível </placeName>
+                <date value ="1956-03-17"> 17.3.56 </date>
+            </postmark>
+             <div>
+                <p> Ilustre, compositor </p>
+            </div>
+        </envPart>
+        <envPart side ="back">
+            <address type ="sender">
+                <addrLine> Rua Conde Baependi, 4, apt52 </addrLine>
+                <addrLine> Rio de Janeiro </addrLine>
+                <addrLine> Brasil </addrLine>
+             </address>
+            <postmark n="1">
+                <placeName> Porto </placeName>
+                <date value = "1956-03-23"> 23.3.1956 </date>
+            </postmark>
+            <postmark n="2">
+                <placeName> Lisboa </placeName>
+                <date value ="1956-03-22"> 22mar.56 10H</date>
+            </postmark>
+        </envPart>
+        <envelope type="letter">
+            <note> Este envelope contém quatro selos e três carimbos dos quais dois colocados encima dos selos são ilegíveis </note>
+        </envelope>
+    </envelope>
+ 
+    <carta n="067">
+    <folio n="2"/>
+    <morada>Rua Conde Baependi 4.<lb/>
+    apt 52 Rio de Janeiro </morada><lb/>
+    <local>Rio</local>, <data>15/III/956.</data><lb/>
+
+    <saudacao tipo="inicial">Caro e saudoso, ilustre amigo e artista</saudacao><lb/> <nome tipo="destinatario">Eurico</nome>,<lb/>
+    <p>Espero que esta o venha encontrar,<lb/> assim como aos seus caros, gozando saúde.<lb/></p>
+    <p>Aqui vamos indo na luta interna<lb/> a que nos obriga - aos honestos - o ganha-<lb/>-pão.<lb/></p>
+    <p>Quero ver se consigo um portedor<lb/> pelo <nome tipo="navio">Andes</nome> afim de enviar ao meu bom<lb/> irmão na arte os discos que gravei na<lb/> <nome tipo="gravadora">Odeon</nome> com o pseudônimo de <cantora id="#Alma_Miranda">Marialma</cantora>.<lb/>
+    <titulo tipo="musica"> 8 Cantigas de ninar</titulo>, do folclore e dos autores<lb/> brasileiros: <nome tipo="compositor">Hekel</nome>, <nome tipo="compositor">Paurillo</nome>, <nome tipo="pseudonimo">Tupynambá</nome>, <nome tipo="autor">Nigrone</nome>,<lb/> <nome tipo="poeta">Dornellas</nome>; com <instumento>órgão</instumento>, orquestra e celeste.<lb/>
+    É um longplay; a capa é um quadro<lb/> célebre da mãe-preta ninando o menino<lb/> branco tendo ao lado na esteira no chão<lb/> deitado - o seu negrinho...<lb/></p>
+    <p>Ainda canto na <nome tipo="radio">Radio Jornal do Brasil</nome><lb/> e cantei você na <dia>2afeira</dia> dia <data>5 de Março</data>.<lb/></p>
+    <p>No dia <data>29 de fevereiro</data> me lembrei muito<lb/> de você por ter sido dia de <nome tipo="santo">Sao Thomaz</nome>.<lb/></p>
+
+    <folio n="2v"/>
+    2.
+    <p>Caro <nome id="#Thomaz_Lima"><nome tipo="alcunha">Thomi</nome></nome>, ésta música: <titulo tipo="composicao">Chôro"</titulo>, que aqui vai,<lb/>
+    é de um novel compositor carioca. Virtuoso<lb/> do teclado, ótimo rapaz, musicista, bom<lb/> colega, de pequena estatura, um pouco<lb/> chêio de côrpo. Foi meu acompanhador quando<lb/>
+    o <nome tipo="pintor">Mário de Azevedo</nome> viajava ou não podia<lb/> acompanhar. É professor na <nome tipo="escola">Escola de<lb/> Música</nome> e está fazendo concurso para<lb/> conseguir cátedra. Percorreu o <lugar tipo="pais">Brasil</lugar><lb/> pelo interior dando concêrtos. Só agora<lb/>
+    que se aposentou dos "corrêios" (pois é! trabalho em outros setores para sustentar<lb/> as irmás que êle ajudou a educar pois<lb/> ficou órfão logo.) é que se lembrou<lb/>
+    de compôr. as mùsicas para canto (3)<lb/> são uns amôres. muito simples mas pro-<lb/> metedoras e graciosas. achei êste chôro<lb/> tão bom para um "bis" ou para seus<lb/> programas brasileiros que ousei pedir<lb/> ésta cópia para você antes que sáia<lb/>
+    a impressa. Terei feito bem!? Êle ficou radiante em mandá-la e logo no dia<lb/> seguinte a trouxe pessoalmente com<lb/> dedicatória e tudo.<lb/></p>
+    <p>Será que você não me poderia<lb/></p>
+
+    <folio n="3"/>
+    3.
+    enviar alguma das suas maravilhas<lb/> para que êle as divulgue nos seus concêrtos<lb/> es nas aulas de <nome tipo="escola">Escola?</nome>... as que eu<lb/>
+    <p>tenho já distribuí, menos a minha sua<lb/> <titulo tipo="composicao">"Barcarola"</titulo> que me limito a copiar quando<lb/> a pedem. Já dei duas cópias.<lb/></p>
+    <p>Quando você a tocar, primeiro<lb/> mentalize sua irmã brasileira e toque a<lb/> me olhar com os olhos da alma. Eu gosto<lb/> imenso dela... É nostálgica e lembra verdes<lb/>
+    váles com seus sinoosos rios a rebrilhar<lb/> ao tênue reflexo de sol por entre as<lb/> ramagens das vetustas árvores que o<lb/> 
+    ensonbram aqui e acolá, na ânsia de<lb/> refrescar seus pézinhos de raiz, perfurando<lb/> a terra das margens; de um cèu pedrento<lb/>
+    azul e branco como um mar etéreo sal-<lb/> picado de icebergs flutuando ao sabor do<lb/> vento; poucas aves - e ao longe num cômoro,<lb/> 
+    um velho castelo em ruinas em algumas<lb/> aves sobrevoando em direçao ao desconhecido.</p>
+
+    <folio n="4"/>
+    4.
+    <p>Desculpe, <nome id="#Thomaz_Lima"><nome tipo="alcunha">Tomí</nome></nome>, há tanto que não consigo<lb/> ter devanêios... O tempo è pouco para as<lb/> minhas traduções técnicas. Pois É! Agora<lb/>
+    é como melhor ganho o pão: mas meu<lb/> cèrebro chega a dormir no mêio do serviço.<lb/> Enfim_ a vida nesta passagem é isso mesmo.<lb/></p>
+    <p>Como vai seu ilustre amigo o <nome>Carlos<lb/> Valle</nome>? Soube pela Revista da <nome>Olga</nome><lb/> de seu concêrto em <lugar tipo="cidade">Guimarães</lugar>. Você está<lb/>
+    mais gordo na fotografia. Não tendo estado<lb/> com <nome>Olga</nome>. O marido dela è que me envia<lb/> sempre as revistas por eu ser colaboradora.<lb/></p>
+    <p>Não sei lhe dizer porque essa criatura<lb/> nunca mais me procurou!... até o marido<lb/> dela se espanta mas preferimos não nos<lb/> aprofundarmos no assunto:<lb/></p>
+    <p><saudacao tipo="final"><nome id="#Thomaz_Lima"><nome tipo="alcunha">Tomí</nome></nome> querido, amigo saudoso de <lugar tipo="pais">Portugal</lugar>,<lb/> com lembranças amigas de mamãe e do <nome>Mesquita</nome><lb/> aqui vos deixo (perdôe o português mas não quero<lb/> deixar passar outro dia sem escrever para você, e faça<lb/>
+    de conta que estou a conversar) pedindo que não esqueça<lb/> sua amiga sincera, admiradora com um abraço<lb/> de <nome id="#Alma_Miranda"><nome>Almaz</nome></nome></saudacao></p>
+    <postscript> P.S. Cumprimentos à sua Exma. senhora e filho.<lb/> de <nome id="#Alma_Miranda"><nome>Almaz</nome></nome>.<lb/> </postscript>
+</carta>
+</text>
+</tei.2>
+
